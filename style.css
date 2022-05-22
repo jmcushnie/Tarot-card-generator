@@ -1,9 +1,27 @@
 body {
     background-color: rgb(254, 254, 255);
     font-family: 'Raleway' , sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     text-align: center;
     letter-spacing: 2px;
+
 }
+
+#card-display {
+    background-color: indigo;
+    height: 80vh;
+    width: 40vw;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+}
+
+button {
+    width: 100%;
+}
+
