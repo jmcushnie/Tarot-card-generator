@@ -1,32 +1,69 @@
 body {
-    background-color: rgb(254, 254, 255);
+    background-color: rgb(198, 212, 192);
     font-family: 'Raleway' , sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 h1 {
+    margin: 0;
     text-align: center;
     letter-spacing: 2px;
+    font-size: 2rem;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
 
 }
 
 #card-display {
-    background-color: indigo;
-    height: 80vh;
-    width: 40vw;
-    margin-bottom: 3rem;
-    border-radius: 15px;
-    color: white;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
+    background-color: rgb(233, 233, 233);
+    height: 70vh;
+    padding-bottom: 2rem;
+
+
 }
 
 button {
-    width: 100%;
+    background-color: rgb(233, 233, 233);
+    border-style: none;
+    border-radius: 2px;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: cadetblue;
+    box-shadow: 10px 10px 9px -4px rgba(207,202,202,0.75);
+-webkit-box-shadow: 10px 10px 9px -4px rgba(207,202,202,0.75);
+-moz-box-shadow: 10px 10px 9px -4px rgba(207,202,202,0.75);
+cursor: pointer;
+margin-bottom: 2rem;
+}
+
+p {
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 
+@media screen and (max-width:768px) and (orientation:landscape) {
+    
+    #container {
+        height: 1000px
+    }
 
+    #card-display {
+        height: 400px
+    }
+}

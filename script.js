@@ -38,12 +38,12 @@ function getRandomNumber() {
 }
 
 document.getElementById('draw').onclick =
-function (){
+function Draw(){
     let index = getRandomNumber(10)
     let currentCard = deck[index]
 
     document.getElementById("card-display").innerHTML = ' <img src="/images/' + currentCard.image
-    + '.jpg" width="70%" height= "70%"><h3>' + currentCard.name + '</h3><p>' + currentCard.description + '</p>'
+    + '.jpg" width="200" height= "300"><h3>' + currentCard.name + '</h3><p>' + currentCard.description + '</p>'
     
 }
 
