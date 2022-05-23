@@ -19,9 +19,14 @@ h1 {
     width: 40vw;
     margin-bottom: 3rem;
     border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 2rem;
 }
 
 button {
     width: 100%;
 }
+
+
 
