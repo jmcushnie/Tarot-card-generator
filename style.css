@@ -56,7 +56,6 @@ p {
     font-size: 0.8rem;
 }
 
-
 @media screen and (max-width:768px) and (orientation:landscape) {
     
     #container {
