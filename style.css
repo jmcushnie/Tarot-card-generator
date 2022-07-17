@@ -29,7 +29,7 @@ h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 1rem;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
     height: 70vh;
     padding-bottom: 2rem;
 
@@ -37,7 +37,7 @@ h1 {
 }
 
 button {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
     border-style: none;
     border-radius: 2px;
     padding: 1rem;
@@ -49,6 +49,12 @@ button {
 -moz-box-shadow: 10px 10px 9px -4px rgba(207,202,202,0.75);
 cursor: pointer;
 margin-bottom: 2rem;
+}
+
+button:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: cadetblue;
+    color: white;
 }
 
 p {
